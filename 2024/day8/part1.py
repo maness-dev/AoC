@@ -21,7 +21,6 @@ for symb in coords:
                 continue
             slope = (inner_point[0] - point[0], inner_point[1] - point[1])
             antinode_point = (inner_point[0] + slope[0], inner_point[1] + slope[1])
-            antinode_point2 = (point[0] - slope[0], point[1] - slope[1])
             if antinode_point[0] in range(0, len(data[0])) and antinode_point[
                 1
             ] in range(0, len(data)):
